@@ -218,19 +218,10 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  bottomView: {
-    backgroundColor: "black",
-    borderRadius: 10,
-    height: 40,
-    width: WIDTH / 4.5,
-    margin: 5,
-    justifyContent: "center",
-    alignItems: "center",
-  },
   bottomViewPosition: {
     flexDirection: "row",
     position: "absolute",
-    top: HEIGHT - 50,
+    top: HEIGHT - 55,
   },
   topBar: {
     backgroundColor: "black",
