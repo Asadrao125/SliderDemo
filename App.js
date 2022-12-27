@@ -185,7 +185,7 @@ export default function App() {
               timer={5000}
               indicatorActiveColor={activeColor}
               indicatorInActiveColor={inActiveColor}
-              onPress={(item) => alert(JSON.stringify(item))}
+              onPress={(item) => alert(item)}
               contentContainerStyle={{ paddingHorizontal: 0 }}
               indicatorActiveWidth={20}
               animation
