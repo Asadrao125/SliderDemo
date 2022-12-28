@@ -189,6 +189,7 @@ export default function App() {
               contentContainerStyle={{ paddingHorizontal: 0 }}
               indicatorActiveWidth={20}
               animation
+              autoscroll={true}
             />
           </View>
 
